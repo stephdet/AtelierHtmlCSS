@@ -8,7 +8,6 @@
 body {
   margin:0 auto;
   background-color:#fff;
-  color:red;
   font-family: "arial",verdana, sans serif;
   font-size: 100%;
 }
@@ -35,8 +34,10 @@ font-size: 4em;
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  min-height: 350px;
+  min-height: 400px;
   padding-top:100px;
+  padding-bottom:100px;
+
 }
 
 .maintitle {
@@ -47,25 +48,55 @@ font-size: 4em;
 }
 
 .secondmain {
-  margin-top: 50px;
   min-height: 350px;
 }
 
-.truck{
-  background-image:url("image/foodtruck.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-}
 
 .secondmain div{
  float: left;
  width:33%;
- min-height: 350px;
- padding: 10px 10px;
+ min-height:350px;
+ padding: 20px 10px;
+ margin-top: 20px;
 }
 
 
+
+
+
+
+
+#speach {
+  min-height: 450px;
+  background-color: #E3E2DD;
+}
+
+
+#speach .people {
+  float:right;
+  width: 48%;
+  vertical-align: middle;
+}
+
+#speach .people .bio {
+  margin-top: 20px;
+}
+
+
+
+
+#speach .people .bio img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height:200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.mainpartner {
+  clear: both;
+min-height: 250px;
+}
 
 
 /* MAINNAV*/
@@ -95,9 +126,18 @@ nav ul li {
 }
 
 section {
-  text-align: center;
+ text-align:center;
   display: block;
 }
+
+
+
+
+
+
+
+
+
 
 
 /* LISTE*/
@@ -114,11 +154,9 @@ ul {
 
 
 .socialicons li a {
-  text-decoration: none;
   color: #fff;
   font-size: 1.5em;
   padding-left: 1em;
-
 }
 
 
@@ -134,6 +172,25 @@ h3 {
   text-transform: uppercase;
 }
 
+h4{
+  padding-top: 1em;
+}
+
+
+
+
+.logo span{
+  display: none;
+  margin:0;
+}
+
+
+.logospart {
+  margin-top: 3em;
+}
+
+
+
 
 
 .mainnews{
@@ -146,9 +203,14 @@ h3 {
 
 
 /* visualcontent*/
-img,a {
+a {
   display: block;
 }
+
+a:link {
+  text-decoration: none;
+}
+
 
 
 .logo img{
@@ -161,14 +223,26 @@ img,a {
 }
 
 
-.bio {
+
+.more {
+  width:100px;
+  height:34px;
+  padding:0.5 em;
+  background-color: #CC110A;
 }
+
+.more p{
+  text-align:center;
+  text-decoration: none;
+  color: #fff;
+}
+
 
 
 .logos{
 margin: 0 auto;
-}
 
+}
 
 
 
@@ -176,8 +250,8 @@ margin: 0 auto;
 .partners {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-
 
 
 
