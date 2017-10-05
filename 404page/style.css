@@ -1,0 +1,54 @@
+body {
+  background-color: #fff;
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+#main {
+  margin:0 auto;
+  background-color: #0CC0FF;
+  min-width:600px;
+  min-height:600px;
+}
+
+
+
+h1{
+  font-size:7em;
+  margin: 0;
+}
+
+
+p {
+margin-top: 2em;
+font-weight: bold;
+font-size: 3em;
+}
+
+
+a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color:#fff;
+}
+
+
+@keyframes disparition {
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+
+
+
+
+
+
+/*ANIMATIO*/
+#animation:hover img  {
+  animation :disparition 2s infinite;
+
+}
