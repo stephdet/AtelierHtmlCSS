@@ -1,5 +1,4 @@
 /* HEADER*/
-
 * {
   box-sizing: border-box;
 }
@@ -46,6 +45,7 @@ body {
   width:30%;
   background-color: #30CC95;
   height: auto;
+  padding-bottom: 1em;
 }
 
 
@@ -53,8 +53,6 @@ body {
 .border{
   clear: both;
 }
-
-
 
 
 /*FLOAT*/
@@ -69,24 +67,6 @@ header img {
   width:  100px;
   height: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*FOOTER*/
@@ -133,9 +113,6 @@ color: white;
 }
 
 
-
-
-
 p {
   text-align: center;
   color: white;
@@ -144,10 +121,7 @@ p {
   font-family: "Trebuchet Ms", arial,sans-serif;
 }
 
-
-
-
-ul li{
+.jobs li{
   list-style-type: none;
   color: white;
   font-size: 1.2em;
@@ -158,6 +132,26 @@ ul li{
 
 
 
+ul li{
+  list-style-type: none;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-family: "Trebuchet Ms", arial,sans-serif;
+}
+
+ul li a {
+display: block;
+padding-right:1em;
+margin-top: 1em;
+}
+
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
 
 
 
@@ -167,7 +161,6 @@ ul li{
          url('../fonts/montserrat-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -178,7 +171,6 @@ ul li{
          url('../fonts/montserrat-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
